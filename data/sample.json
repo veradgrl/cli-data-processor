@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ali",
+      "email": "ali@example.com",
+      "is_active": false
+    },
+    {
+      "id": 2,
+      "name": "Ayse",
+      "email": "ayse@example.com",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "name": "Mehmet",
+      "email": "mehmet@example.com",
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "name": "Mine",
+      "email": "mine@example.com",
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "name": "Ege",
+      "email": "ege@example.com",
+      "is_active": false
+    }
+  ],
+  "transactions": [
+    {
+      "id": 101,
+      "user_id": 1,
+      "amount": 150.5,
+      "category": "food",
+      "currency": "TRY",
+      "status": "completed"
+    },
+    {
+      "id": 102,
+      "user_id": 1,
+      "amount": 500.0,
+      "category": "electronics",
+      "currency": "EUR",
+      "status": "cancelled"
+    },
+    {
+      "id": 103,
+      "user_id": 2,
+      "amount": 75.0,
+      "category": "food",
+      "currency": "TRY",
+      "status": "pending"
+    },
+    {
+      "id": 104,
+      "user_id": 2,
+      "amount": 1270.0,
+      "category": "travel",
+      "currency": "EUR",
+      "status": "pending"
+    },
+    {
+      "id": 105,
+      "user_id": 3,
+      "amount": 250.0,
+      "category": "food",
+      "currency": "TRY",
+      "status": "completed"
+    },
+    {
+      "id": 106,
+      "user_id": 4,
+      "amount": 780.0,
+      "category": "clothes",
+      "currency": "TRY",
+      "status": "cancelled"
+    },
+    {
+      "id": 107,
+      "user_id": 4,
+      "amount": 1200.0,
+      "category": "makeup",
+      "currency": "EUR",
+      "status": "pending"
+    },
+    {
+      "id": 108,
+      "user_id": 5,
+      "amount": 1850.0,
+      "category": "electronics",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "id": 109,
+      "user_id": 5,
+      "amount": 3400.0,
+      "category": "clothes",
+      "currency": "TRY",
+      "status": "pending"
+    },
+    {
+      "id": 110,
+      "user_id": 5,
+      "amount": 3750.0,
+      "category": "entertainment",
+      "currency": "TRY",
+      "status": "completed"
+    }
+  ]
+}
